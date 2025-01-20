@@ -1,0 +1,13 @@
+train: craters-boulders/train/images
+val: craters-boulders/valid/images
+test: craters-boulders/test/images
+
+nc: 5
+names: ['boulder', 'large-crater', 'medium-crater', 'plane', 'small crater']
+
+roboflow:
+  workspace: crater-htc11
+  project: crater-detection-3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/crater-htc11/crater-detection-3/dataset/1
